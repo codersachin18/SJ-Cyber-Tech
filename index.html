@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Cyper Tech</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <nav>
+        <div class="logo">
+
+           
+            <a class="logo" href="index.html"><img class="logo2" src="Light Blue Sci-Fi Futuristic Animated Logo (1).png" width="122" alt=""></a>
+            
+
+        </div>
+        <div class="navs">
+
+            <ul class="sidebar">
+                <li onclick=closesidebar()><a class="navbar" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="50px" viewBox="0 -960 960 960" width="64px" fill="#e8eaed">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a class="navbar" href="#">HOME</a></li>
+                <li><a class="navbar" href="#">ABOUT</a></li>
+                <li><a class="navbar" href="#">SERVISES</a></li>
+                <li><a class="navbar" href="#">HELP</a></li>
+                <li><a class="navbar" href="#">Contact Us</a></li>
+                <li class=" buttons "> <a href="login.html"><button class="buttons">LOGIN</button></a></li>
+
+            </ul>
+
+
+
+            <ul>
+                <li class="hideonmobile"><a class="navbar " href="#">HOME</a></li>
+                <li class="hideonmobile"><a class="navbar" href="#">ABOUT</a></li>
+                <li class="hideonmobile"><a class="navbar" href="#">SERVISES</a></li>
+                <li class="hideonmobile"><a class="navbar" href="#">HELP</a></li>
+                <li class="hideonmobile"><a class="navbar" href="#"><button onclick=loginshow() class="ln">LOGIN</button></a></li>
+                <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="54px" viewBox="0 -960 960 960" width="44px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <d class="video-background">
+
+        <video src="3129576-uhd_3840_2160_30fps.mp4" autoplay loop></video>
+
+        <d class="heading">
+
+            
+            <h1 class="h2h">Shield Your Data, Fortify Your <span class="bg-b">Business</span></h1>
+            <h2 class="h3h"> Comprehensive Cybersecurity Solutions You Can Trust</h2>
+        </d>
+        <div class="head">
+            
+           <img class="hg" src="h2.png" alt="">
+        </div>
+
+         
+
+        <d class="forming">
+
+            <form class="form" onsubmit="return errorpass()" action="sing in form">
+
+
+                <div class="fs">
+
+                    <h1 class="sg">SING IN</h1>
+
+                    <div class="lbl">
+                        <label for="your-name"><svg xmlns="http://www.w3.org/2000/svg" height="54px"
+                                viewBox="0 -960 960 960" width="44px" fill="#e8eaed">
+                                <path
+                                    d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z" />
+                            </svg></label>
+                        <input required type="text" name="your-name" id="your-name" placeholder="ENTER YOUR FULL NAME">
+                    </div>
+
+
+                    <div class="lbl">
+                        <label for="email"><svg xmlns="http://www.w3.org/2000/svg" height="54px"
+                                viewBox="0 -960 960 960" width="44px" fill="#e8eaed">
+                                <path
+                                    d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280 320-200v-80L480-520 160-720v80l320 200Z" />
+                            </svg></label>
+                        <input required type="text" name="email" id="email" placeholder="ENTER YOUR EMAIL">
+
+                    </div>
+
+
+                    <div class="lbl">
+                        <label for="password"><svg xmlns="http://www.w3.org/2000/svg" height="54px"
+                                viewBox="0 -960 960 960" width="44px" fill="#e8eaed">
+                                <path
+                                    d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z" />
+                            </svg></label>
+                        <input required type="text" name="password" id="password" placeholder="ENTER YOUR PASSWORD">
+
+
+                    </div>
+
+
+                    <div class="lbl">
+                        <label for="repeat password"><svg xmlns="http://www.w3.org/2000/svg" height="54px"
+                                viewBox="0 -960 960 960" width="44px" fill="#e8eaed">
+                                <path
+                                    d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z" />
+                            </svg></label>
+                        <input required type="text" name="repeat password" id="repeat_password"
+                            placeholder="REPEAT PASSWORD">
+                            <span id="errorMessage" class="error"></span><br><br>
+                    </div>
+
+                    <d class="lbl">
+
+                        <button onclick=errorpass() id="submit" class="submit" action="submit">SING IN</button>
+
+                    
+
+                    </d>
+
+                    <d class="lbl">
+
+                        <p class="lgn">Already Have a Account <a href="login.html">login now</a></p>
+
+             </d>
+                
+          </div>
+
+      </form>
+   </d>
+</d>
+
+
+
+<dialog id="login-page">
+
+<div class="container">
+    <input id="signup_toggle" type="checkbox">
+    <form  action="submit"  method="dialog" type="submit" class="form2">
+        <div class="form_front">
+            <div class="form_details">Login</div>
+            <input type="text" class="input" id="login"  placeholder="Email">
+            <input type="text" class="input" id="pass"  placeholder="Password">
+            <button  action="submit" onclick="lgnn()" id="lgn"  class="btn">Login</button>
+            <button onclick="closelogin" class="btn">Cancel</button>
+            <span class="switch">Don't have an account? 
+                <label for="signup_toggle" class="signup_tog">
+                    Sign Up
+                </label>
+            </span>
+        </div>
+        <div class="form_back">
+            <div class="form_details">SignUp</div>
+            <input type="text" class="input" placeholder="Firstname">
+            <input type="text" class="input" placeholder="Username">
+            <input type="text" class="input " id="pass" placeholder="Password">
+            <input type="text" class="input " id="rpassword" placeholder="Confirm Password">
+            <button action="submit" class="btn">Signup</button>
+            <button onclick="closelogin" class="btn">Cancel</button>
+            <span class="switch">Already have an account? 
+                <label for="signup_toggle" class="signup_tog">
+                    Sign In
+                </label>
+            </span>
+        </div>
+    </form>
+</div>
+
+</dialog>
+
+
+<div class="slider">
+    <div class="prev" onclick="prevbtn()"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="174px" fill="white"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></div>
+    <div class="slide">
+        <img class="img1" src="Purple Modern Cyber Secutiry Presentation (1).png" alt="">
+        <img class="img2" src="Purple Modern Cyber Secutiry Presentation (2).png" alt="">
+        <img class="img3" src="Purple Modern Cyber Secutiry Presentation (3).png" alt="">
+    </div>
+    <div class="next" onclick="nextbtn()"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="174px" fill="white"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></div>
+</div>
+
+
+<main>
+
+    <div class="container1">
+        
+    
+        <div class="cnt1">
+           <div class="box">
+                <h1 style="font-size: xx-large; padding: 12px;">From hypervulnerability to organisational resilience</h1>
+                 <p>Enterprises today face a hypervulnerability crisis. The millions of new malware discovered daily along with disjointed security tools cause alert storms, longer detection times and manual alert triaging.
+                    Keeping these challenges in mind, we built a cybersecurity platform that equips you to detect, withstand and recover from cyber threats. We provide network, cloud and endpoint protection, along with cyber threat detection and response, guided by our security assessment and consulting services. Backed by our IP, technology partnerships and a decade of safeguarding global clients, you’re making the right move in building your cyber resilience strategy by partnering with us.</p>
+           </div>
+        </div>
+
+        <div class="cnt2">
+            <img class="cyber" src="cyber-sec-overview.jpg.webp" alt="">
+        </div>
+    </div>
+
+    <div class="stitle">
+        OUR SERVISES
+    </div>
+
+    <div class="servises">
+
+    
+
+        <div class="s1 ">
+            
+           <h1>Application</h1>
+           <h1>Security</h1>
+            
+           <h2 class="s5">Safeguard applications from unauthorized access modification, or denial-of- service attacks.</h2>
+
+        </div> 
+ 
+        <div class="s2 "> 
+            
+            <h1>Network</h1>
+            <h1>Security</h1>
+                
+            <h2>Protect computer networks from intruders, data breaches, and disruptions.</h2>
+
+        </div> 
+
+
+        <div class="s3 "> 
+            
+           
+            <h1>Cloud</h1>
+          <h1>Security</h1>
+          <h2>Secure your cloud environment with our expertise, ensuring data protection and regulatory compliance.</h2>
+            
+        </div> 
+ 
+        <div class="s4 "> 
+            
+            <h1>Cert-In</h1>
+            <h1>Audit</h1>
+            <h2>Prepare for success with our guidance and support to navigate a Cert-In audit.</h2>
+
+        </div>
+
+    </div>
+
+    <div class="container2">
+
+        <video class="vdo" src="video2.mp4" autoplay loop width="100%" height="500px"></video>
+    </div>
+
+    <d class="contact">
+
+       <div class="contact-form">
+        
+        <div class="contact_us_2">
+            <div class="responsive-container-block big-container">
+              <div class="blueBG">
+              </div>
+              <div class="responsive-container-block container">
+                <form class="form-box">
+                  <div class="container-block form-wrapper">
+                    <p class="text-blk contactus-head">
+                      Get in Touch
+                    </p>
+                    <p class="text-blk contactus-subhead">
+                      Tell Us Your Deatials We will Contact You Shortly
+                    </p>
+                    <div class="responsive-container-block">
+                      <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt">
+                        <p class="text-blk input-title">
+                          FIRST NAME
+                        </p>
+                        <input required class="input" id="ijowk" name="FirstName" placeholder="Please enter first name...">
+                      </div>
+                      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                        <p class="text-blk input-title">
+                          LAST NAME
+                        </p>
+                        <input required class="input" id="indfi" name="Last Name" placeholder="Please enter last name...">
+                      </div>
+                      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                        <p class="text-blk input-title">
+                          EMAIL
+                        </p>
+                        <input required class="input" id="ipmgh" name="Email" placeholder="Please enter email...">
+                      </div>
+                      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                        <p class="text-blk input-title">
+                          PHONE NUMBER
+                        </p>
+                        <input required class="input" id="imgis" name="PhoneNumber" placeholder="Please enter phone number...">
+                      </div>
+                      <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
+                        <p class="text-blk input-title">
+                          WHAT DO YOU HAVE IN MIND
+                        </p>
+                        <textarea required class="textinput" id="i5vyy" placeholder="Please enter query..."></textarea>
+                      </div>
+                    </div>
+                    <button class="submit-btn">
+                      Submit
+                    </button>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+
+       </div>
+
+       
+
+    </d>
+    
+</main>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We provide comprehensive cybersecurity solutions to protect your business.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: sachiraj18sj@gmail.com</p>
+            <p>Phone: +91-7387574762</p>
+            <p>&copy; 2025 Coder_Sachin. All rights reserved.</p>
+        </div>
+        <div class="footer-section">
+            
+            <h3>This Website Developed By Sachin Jagtap</h3>
+            <h3>Follow Us</h3>
+            <div class="social-media-links">
+                <a href="#">
+                    <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" alt="Twitter">
+                </a>
+                <a href="#">
+                    <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/mariner_sachin_18k_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png" alt="Google">
+                </a>
+                <a href="https://www.instagram.com/mariner_sachin_18k_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
